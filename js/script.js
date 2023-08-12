@@ -7,13 +7,10 @@
 })(jQuery);
 
 
-$(document).on('click', function () {
+$(document).on('click touchstart', function () {
     document.getElementById("my_audio").play();
 });
 
-$(document).on('touch', function () {
-    document.getElementById("my_audio").play();
-});
 
 
 // Set the date we're counting down to
