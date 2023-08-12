@@ -7,7 +7,11 @@
 })(jQuery);
 
 
-$(document).on('scroll', function () {
+$(document).on('click', function () {
+    document.getElementById("my_audio").play();
+});
+
+$(document).on('touch', function () {
     document.getElementById("my_audio").play();
 });
 
