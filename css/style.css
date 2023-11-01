@@ -396,6 +396,7 @@
 
 body {
 	font-family: Arial, Helvetica, Sans-serif;
+	overflow-x: hidden;
 }
 
 img {
@@ -428,7 +429,7 @@ img {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 60px;
-	margin: 32px 0;
+	margin: 15px 0;
 	color: #674ea7;
 }
 
@@ -588,7 +589,7 @@ body {
 }
 
 .place {
-	color: #874562;
+	color: #000;
 	font-weight: 900;
 }
 
