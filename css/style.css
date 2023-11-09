@@ -424,6 +424,23 @@ img {
 	display: block;
 }
 
+
+.bottom-right-decoration {
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	display: block;
+	transform: rotateX(180deg);
+}
+
+.bottom-left-decoration {
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: block;
+	transform: rotateX(180deg);
+}
+
 .title h1 {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
@@ -499,13 +516,13 @@ body {
 }
 
 .title {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 #time {
 	width: auto;
 	height: auto;
-	padding: 20px;
+	padding: 2px;
 	border-radius: 20px;
 	font-size: 16px;
 }
@@ -624,7 +641,7 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 24px;
+	margin-bottom: 0;
 }
 
 .twitter {
@@ -657,4 +674,11 @@ a {
 	.seconds {
 		font-size: 26px;
 	}
+}
+.invite{
+	color: #874562;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
 }
